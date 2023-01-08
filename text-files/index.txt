@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Josh Alicea">
+        <meta name="description" content="This is a Flex Box practice">
+        <title>Flex Box Practice Project 01</title>
+        <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/main.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Flex Box Practice Project 01</h1>
+            <img src="/images/favicon.png" alt="CSS Logo" title="CSS Logo" width="150px" height="150px">
+            <br>
+            <nav class="prime-menu">
+                <ul>
+                    <li><a href="https://github.com/The-Owl-Shogun">My GitHub</a></li>
+                    <li><a href="https://www.youtube.com/@theowlshogun2636">Youtube</a></li>
+                    <li><a href="https://www.deorum-legions.com">Deorum Legions</a></li>
+
+                </ul>
+            </nav>
+            <br>
+        </header>
+        <hr>
+
+        <main>
+            <h2>Flex Box Example</h2>
+            <br>
+            <div class="text-box">
+                <p>Below is a mini project I conducted to practice my Flex Box knowledge. The image below is based on something I saw in <a href="https://www.theodinproject.com/">The Odin Project</a>.</p>
+            </div>
+            <br>
+
+            <h2>The Target Goal</h2>
+            <br>
+            <figure>
+                <img src="/images/flexbox-example.png" alt="Flex Box Example" title="Example taken from The Odin Project" width="365.5px" height="auto">
+                <figcaption>This was made only using Flex Box</figcaption>
+            </figure>
+            <br>
+
+            <div class="text-box">
+                <p>My goal was to recreate the sample image above, taken from The Odin Project using only <strong>Flex Box</strong> CSS and nothing else. This was a challenging little task, but helped me better understand positoning with Flex Box, understanding <strong>CSS</strong>, and how to organizng and structue <strong>HTML div containers</strong> to get the desired effect!</p>
+            </div>
+            <br>
+
+            <div class="master-box">
+                <!-- ------------ Top Row ------------ -->
+
+                <div class="box blue">
+                    <div class="box peach-puff"></div>
+                    <div class="box peach-puff">
+                        <div class="box red"></div>
+                        <div class="box red"></div>
+                    </div>
+                    <div class="box peach-puff"></div>
+                </div>
+
+                <!-- ---------- Middle Row ----------- -->
+
+                <div class="box-invisible"> <!-- container to keep items intact from parent container -->
+                    <div class="box red"></div>
+                    <div class="column">
+                        <div class="box red"></div>
+                        <div class="box red"></div>
+                    </div>
+                </div>
+
+                <!-- ---------- Bottom Row ----------- -->
+
+                <div class="box blue">
+                    <div class="box sides purple"></div>
+                    <div class="box peach-puff"></div>
+                    <div class="box peach-puff"></div>
+                    <div class="box sides purple"></div>
+                </div>  
+            </div>  
+
+            <br>
+            <div class="text-box">
+                <p>Before you is the end results. Not too bad! It's fairly close. I could have kept working on adjusting the margins and padding to make it an exact replica, but I needn't aim for perfectionism just yet. What matters is the everything is positioned and arranged as it should be. I am happy!</p>
+            </div>
+            <br>
+            <p style="text-align: center;">Click on the buttons below to study the code:</p>
+            <br>
+
+
+            <div>
+            <a href=""><button>HTML File</button></a>
+            <a href="/main.css"><button> CSS File</button></a>
+            </div>
+            <br>
+
+        </main>
+
+        <hr>
+        <footer>
+            <br>
+            <p>&copy; 2023 Josh Alicea</p>
+            <br>
+        </footer>
+    </body>
+
+</html>

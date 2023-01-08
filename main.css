@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+ul {list-style: none;}
+
+
+.text-box {
+    /* border: 2px solid #333; */
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+}
+
+/* -------------------------------------------------------------------- */
+
+.master-box {
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    margin: 0.5rem 20% 0.5rem 20%; /* keeps it more "center"-looking on screen */
+    padding: 0.5rem;
+}
+
+.box {  /* affects all containers and items */
+    display: flex;  /* default is set to row */
+    flex: 1;  /* sets items to full width of container */
+    border: 2px solid;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.sides { flex: 2;}  /* adjusts the ratio for side items of bottom row */
+
+.column { /* affects only the container of columns in middle row */
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* it will help items stetch like its' neighbor does */
+}
+
+.box-invisible {
+    display: flex;  /* default is set to row */
+    flex: 1;  /* sets items to full width of container */
+}
+
+/* Below are simple color assignments */
+
+.blue {
+    border: 3px solid darkblue;
+    background-color: lightskyblue;
+}
+
+.peach-puff {
+    border: 3px solid chocolate;
+    background-color: peachpuff;
+} 
+
+.red {
+    border: 3px solid rgb(196, 15, 15);
+    background-color: rgb(255, 145, 145);
+}
+
+.purple {
+    border: 3px solid purple;
+    background-color: lavender;
+}
+
+/*  buttons for the HTML & CSS Files To view and study */
+
+button {
+    background-color: dodgerblue;
+    border: 3px solid skyblue;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 10%;
+
+}
+
+button:hover {
+    background-color: skyblue;
+    border: 3px solid dodgerblue;
+    color: purple;
+}
+
+
+
